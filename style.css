@@ -1,0 +1,438 @@
+/* Utilities */
+
+@font-face {
+    font-family: 'montserrat_reguler';
+    src: url('mr.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'montserrat_light';
+    src: url('ml.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'berlin_sans';
+    src: url('berlin_sans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'montserrat_medium';
+    src: url('mm.ttf') format('truetype');
+}
+
+.row {
+    margin: 0;
+}
+
+/* End Utilities */
+
+/* Section Header */
+
+section.header {
+    width: 100%;
+    height: 768px;
+    background-color: #081318;
+}
+
+/* End Section Header */
+
+/* navbar */
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.nav-item .nav-link {
+    font-family: 'montserrat_regular', sans-serif;
+    color: #F38A69 !important;
+    transition: .3s;
+    letter-spacing: .5px;
+}
+
+.nav-item .nav-link:hover {
+    color: #AF2123 !important;
+}
+/* End Navbar */
+
+/* Title */
+
+.title {
+    margin-top: 16%;
+}
+
+.title h1 {
+    color: #AF2123;
+    font-size: 100px;
+    font-family: 'berlin_sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.title h2 {
+    color: #F38A69;
+    font-size: 52px;
+    font-family: 'montserrat_medium', sans-serif;
+}
+
+/* End Title */
+
+/* Section Portfolio Label */
+
+section.portfolio-label {
+    width: 100%;
+    height: 200px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+section.portfolio-label h3 {
+    color: #F38A69;
+    line-height: 200px;
+    text-transform: uppercase;
+    font-family: 'montserrat_medium', sans-serif;
+    margin: 0 12px;
+    display: inline-block;
+}
+
+section.portfolio-label span {
+    width: 12%;
+    height: 8px;
+    margin-bottom: 6px;
+    display: inline-block;
+    background-color: #D85E27;
+}
+
+/* End Section Portfolio Label */
+
+/* Section Portfolio */
+
+.portfolio .row {
+    margin: 0;
+}
+
+.portfolio .row .colom {
+    padding: 0 10px;
+}
+
+.portfolio .row .box-portfolio {
+    position: relative;
+}
+
+.portfolio .row .coba {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #172723;
+    opacity: .8;
+    z-index: 1;
+}
+
+.portfolio .box-portfolio h4 {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 22%;
+    color: #FFF;
+    font-family: 'berlin_sans', sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+/* End Section Portfolio */
+
+/* Section Skill */
+
+.skills .row .bg {
+    background-color: #172723;
+}
+ .skills .box-skill {
+     padding: 30px 20px;
+ }
+ 
+ .skills .skillTitle img {
+     display: inline-block;
+     width: 16px;
+ }
+
+ .skills .skillTitle h5 {
+     color: #D85E27;
+     font-family: 'monetserrat_medium', sans-serif;
+     font-size: 24px;
+     margin-left: 10px;
+     display: inline-block;
+ }
+
+ .skills p {
+     color: #FFF;
+     font-family: 'montserrat_reguler', sans-serif;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: .5px;
+     margin-top: 10px;
+     opacity: .9;
+ }
+
+ .skills .row .bg2 {
+    background-color: #D85E27;
+}
+ .skills .box-skill2 {
+     padding: 30px 20px;
+ }
+ 
+ .skills .skillTitle2 img  {
+     display: inline-block;
+     width: 24px;
+ }
+
+ .img3 {
+     width: 30px !important;
+ }
+
+ .skills .skillTitle2 h5 {
+     color: #172723;
+     font-family: 'monetserrat_medium', sans-serif;
+     font-size: 24px;
+     margin-left: 10px;
+     display: inline-block;
+ }
+
+ .skills p {
+     color: #FFF;
+     font-family: 'montserrat_reguler', sans-serif;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: .5px;
+     margin-top: 10px;
+     opacity: .9;
+ }
+/* End Section Skill */
+
+/* Section About */
+.about .row .bg {
+    background-color: #172723;
+}
+.about .box-about {
+     padding: 30px 20px;
+ }
+ 
+ .about .aboutTitle img {
+     display: inline-block;
+     width: 32px;
+ }
+
+ .about .aboutTitle h5 {
+     color: #D85E27;
+     font-family: 'monetserrat_medium', sans-serif;
+     font-size: 24px;
+     margin-left: 10px;
+     display: inline-block;
+ }
+
+ .about p {
+     color: #FFF;
+     max-width: 80%;
+     font-family: 'montserrat_reguler', sans-serif;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: .5px;
+     margin-top: 10px;
+     opacity: .9;
+ }
+
+.about .profil {
+    padding: 30px;
+}
+
+ .profil img {
+     width: 100px;
+ }
+
+ .profil h5 {
+     font-size: 28px;
+     color: #D85E27;
+     font-family: 'berlin_sans', sans-serif;
+ }
+/* End Section About */
+
+/* Section Contact */
+.contact .box-contact {
+    padding: 30px 20px;
+}
+
+.contact p {
+    color: #555555;
+    font-size: 18px;
+    font-family: 'montserrat_reguler', sans-serif;
+}
+
+.contact a {
+    color: #D85E27;
+    font-size: 18px;
+    font-family: 'montserrat_reguler', sans-serif;
+}
+
+.contact .sosmed {
+    margin-top: 30px;
+}
+
+.contact .sosmed img {
+    width: 40px;
+    transition: .4s ease-in;
+}
+
+.contact .sosmed img:hover {
+    width: 44px;
+}
+
+.contact .sosmed .fb {
+    margin: 0 20px;
+}
+
+.contact .input {
+    background-color: #D5D5D5;
+}
+
+.input .box-input {
+    width: 80%;
+    padding: 30px 20px;
+}
+
+.input .box-input textarea {
+    resize: none;
+}
+
+.input .btn-input {
+    width: 100%;
+    height: 42px;
+    background-color: #D85E27;
+    border-radius: 26px;
+    transition: .4s;
+    border: none;
+    color: #FFF;
+    letter-spacing: .5px;
+    size: 24px;
+    font-family: 'montserrat_reguler', sans-serif;
+}
+
+.input .btn-input:hover {
+    background-color: #AF2123;
+}
+/* End Section Contact */
+
+/* Section Footer */
+section.footer {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'montserrat_light', sans-serif;
+    background-color: #081318;
+}
+
+section.footer div {
+    line-height: 50px;
+}
+/* End Section Footer */
+
+/* Responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+/* Section Header */
+
+section.header {
+    height: 600px;
+}
+
+/* End Section Header */
+    /* Title */
+
+.title {
+    margin-top: 10%;
+}
+
+.title h1 {
+    font-size: 80px;
+}
+
+.title h2 {
+    font-size: 42px;
+}
+
+.about p {
+    max-width: 100%;
+}
+
+.input .box-input {
+    width: 100%;
+}
+
+/* End Title */  
+
+/* Section Portfolio Label */
+
+section.portfolio-label {
+    height: 160px;
+}
+
+section.portfolio-label h3 {
+    line-height: 160px;
+    font-size: 24px;
+    margin: 0 8px;
+}
+
+section.portfolio-label span {
+    width: 20%;
+    height: 6px;
+    margin-bottom: 4px;
+}
+
+/* End Section Portfolio Label */
+
+/* Section Portfolio */
+.portfolio .box-portfolio h4{
+    font-size: 42px;
+    top: 4%;
+    left: 4%;
+}
+/* End Section Portfolio */
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+.portfolio .box-portfolio img {
+    width: 100% !important;
+}
+
+.portfolio .box-portfolio h4{
+    font-size: 62px;
+    top: 4%;
+    left: 4%;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .portfolio .box-portfolio h4{
+        font-size: 32px;
+        top: 4%;
+        left: 4%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
