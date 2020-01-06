@@ -305,6 +305,10 @@ section.portfolio-label span {
     resize: none;
 }
 
+.input .box-input input, textarea {
+    font-family: 'montserrat_reguler', sans-serif;
+}
+
 .input .btn-input {
     width: 100%;
     height: 42px;
